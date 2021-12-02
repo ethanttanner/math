@@ -1,0 +1,1 @@
+import pandas as pdimport numpy as np import matplotlib.pyplot as pltimport randomimport scipy.stats as scimport seaborn as sndata = np.random.normal(10, 2, 100)#print(np.mean(data),np.std(data))sn.kdeplot(data)sn.kdeplt( np.random.normal(10, 2, 100) )sn.kdeplt( np.random.normal(20, 2, 100) )sn.kdeplt( np.random.normal(20, 4, 100) )

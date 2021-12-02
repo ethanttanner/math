@@ -1,0 +1,1 @@
+import pandas as pdfrom matplotlib import pyplot as pltdata = pd.read_csv('heart.csv')df = pd.DataFrame(data)#print(len(df))total = 0for i in (df):    total += df['age']    print(total, " tt")
